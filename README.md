@@ -99,6 +99,7 @@ npm run dev
 ## 🚀 "Production" Links
 - Frontend: http://207.154.225.53:5173
 - Backend Admin: http://trill.studio:8001/admin/
+  (admin / ggiuo4) 
 
 ---
 
