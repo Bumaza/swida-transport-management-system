@@ -94,7 +94,11 @@ npm run dev
 - Frontend: http://localhost:5173  
 - Backend Admin: http://localhost:8000/admin  
 - API Swagger: http://localhost:8000/api/schema  
-- API Redoc: http://localhost:8000/api/docs  
+- API Redoc: http://localhost:8000/api/docs
+
+## 🚀 "Production" Links
+- Frontend: http://207.154.225.53:5173
+- Backend Admin: http://trill.studio:8001/admin/
 
 ---
 
