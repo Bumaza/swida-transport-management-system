@@ -20,25 +20,33 @@ Database (SQLite for demo)
 ## ⚙️ Backend (Django)
 
 ### 1. Setup  
+```
 cd backend  
 python -m venv venv  
 source venv/bin/activate   # on Windows: venv\Scripts\activate  
-pip install -r requirements.txt  
+pip install -r requirements.txt
+```
 
 ### 2. Environment Variables  
 A `.env` file is provided **for demo purposes only** (⚠️ not recommended in real projects).  
 
+```
 DEBUG=True  
 SECRET_KEY=django-insecure-example  
 TIME_ZONE=Europe/Bratislava  
-DATABASE_URL=sqlite:///db.sqlite3  
+DATABASE_URL=sqlite:///db.sqlite3
+```
 
 ### 3. Migrations + Load Backup Data  
+```
 python manage.py migrate  
-python manage.py loaddata backup/29_09_2025_8:59.json  
+python manage.py loaddata backup/29_09_2025_8:59.json
+```
 
 ### 4. Run Server  
-python manage.py runserver  
+```
+python manage.py runserver
+```
 
 ### 5. Access Backend  
 - **API Root** → http://localhost:8000/api/  
@@ -53,8 +61,10 @@ python manage.py runserver
 ## 💻 Frontend (Vue 3 + TS + Vite)
 
 ### 1. Setup  
+```
 cd frontend  
-npm install  
+npm install
+```
 
 ### 2. Environment Variables  
 A `.env` file is provided **for demo purposes only**.  
@@ -62,7 +72,9 @@ A `.env` file is provided **for demo purposes only**.
 VITE_API_URL=http://127.0.0.1:8000/api  
 
 ### 3. Run Dev Server  
-npm run dev  
+```
+npm run dev
+```
 
 ### 4. Access Frontend  
 - Web App → http://localhost:5173  
