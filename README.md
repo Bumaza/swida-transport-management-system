@@ -68,7 +68,11 @@ npm install
 ### 2. Environment Variables  
 A `.env` file is provided **for demo purposes only**.  
 
-VITE_API_URL=http://127.0.0.1:8000/api  
+```
+VITE_APP_NAME="SWIDA-System"
+VITE_APP_ENV="dev"
+VITE_APP_API_URL=http://localhost:8000/api
+``` 
 
 ### 3. Run Dev Server  
 ```
