@@ -31,10 +31,9 @@ pip install -r requirements.txt
 A `.env` file is provided **for demo purposes only** (⚠️ not recommended in real projects).  
 
 ```
-DEBUG=True  
+IS_DEBUG=True  
 SECRET_KEY=django-insecure-example  
 TIME_ZONE=Europe/Bratislava  
-DATABASE_URL=sqlite:///db.sqlite3
 ```
 
 ### 3. Migrations + Load Backup Data  
