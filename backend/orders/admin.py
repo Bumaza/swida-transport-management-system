@@ -7,6 +7,7 @@ class OrderAdmin(admin.ModelAdmin):
     search_fields = ['order_number', 'customer__name']
     list_filter = ['created_at']
     ordering = ['created_at']
+    readonly_fields = ['created_at', 'updated_at']
 
 
 @admin.register(Waypoint)
@@ -14,4 +15,6 @@ class WaypointAdmin(admin.ModelAdmin):
     search_fields = ['location', 'order__order_number']
     list_filter = ['type']
     raw_id_fields = ['order']
+    readonly_fields = ['created_at', 'updated_at']
+
 
