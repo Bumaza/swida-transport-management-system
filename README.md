@@ -68,7 +68,11 @@ npm install
 ### 2. Environment Variables  
 A `.env` file is provided **for demo purposes only**.  
 
-VITE_API_URL=http://127.0.0.1:8000/api  
+```
+VITE_APP_NAME="SWIDA-System"
+VITE_APP_ENV="dev"
+VITE_APP_API_URL=http://localhost:8000/api
+``` 
 
 ### 3. Run Dev Server  
 ```
@@ -94,7 +98,12 @@ npm run dev
 - Frontend: http://localhost:5173  
 - Backend Admin: http://localhost:8000/admin  
 - API Swagger: http://localhost:8000/api/schema  
-- API Redoc: http://localhost:8000/api/docs  
+- API Redoc: http://localhost:8000/api/docs
+
+## 🚀 "Production" Links
+- Frontend: http://207.154.225.53:5173
+- Backend Admin: http://trill.studio:8001/admin/
+  (admin / ggiuo4) 
 
 ---
 
